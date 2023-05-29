@@ -19,7 +19,7 @@ This module builds a VPC in the specified region.
 
 ```
 module "vpc" {
-  source = "git@bitbucket.org:Protagona/aws-vpc.git?ref=master"
+  source = "git@bitbucket.org:Protagona/aws-vpc.git?ref=main"
 
   name     = var.name
   vpc_cidr = var.cidr
